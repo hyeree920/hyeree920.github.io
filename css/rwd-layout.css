@@ -31,11 +31,59 @@
 
 
 /* **************************************** *
+ * 1800px
+ * **************************************** */
+@media (max-width: 1800px){
+
+    .main-content__desc { right: 380rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-img { width: 719rem; height: 345rem; right: 134rem; top: 110rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-skill { left: 478rem; top: 163rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-title { left: 500rem; bottom: 155rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-desc { right: 135rem; bottom: 74rem; }
+
+    .main-work__contents:nth-child(4) .main-work__contents-img { width: 719rem; height: 345rem; right: 134rem; top: 110rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-skill { left: 478rem; top: 163rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-title { left: 500rem; bottom: 155rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-desc { right: 135rem; bottom: 74rem; }
+
+}
+
+
+
+/* **************************************** *
  * 1680px
  * **************************************** */
 @media (max-width: 1680px){
 
-    
+    .main-content__desc { right: 345rem; }
+    .main-content__title { bottom: 160rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-title { left: 320rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-desc { left: 678rem; }
+
+    .main-work__contents:nth-child(2) .main-work__contents-img { width: 672rem; height: 323rem; top: 102rem; right: 123rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-title { left: 457rem; bottom: 138rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-skill { left: 437rem; top: 152rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-desc { right: 105rem; bottom: 64rem; }
+
+    .main-work__contents:nth-child(3) .main-work__contents-img { width: 494rem; height: 403rem; left: 286rem; bottom: 64rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-title { right: 247rem; bottom: 280rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-skill { right: 438rem; bottom: 94rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-desc { left: 570rem; top: 141rem; }
+
+    .main-work__contents:nth-child(4) .main-work__contents-img { width: 672rem; height: 323rem; top: 102rem; right: 123rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-title { left: 457rem; bottom: 138rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-skill { left: 437rem; top: 152rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-desc { right: 105rem; bottom: 64rem; }
+
+    .main-work__contents:nth-child(5) .main-work__contents-title { left: 303rem; bottom: 280rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-img { width: 541rem; height: 441rem; right: 96rem; bottom: 59rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-desc { left: 600rem; top: 145rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-skill { right: 690rem; bottom: 200rem; }
+
+    .main-work__contents:nth-child(6) .main-work__contents-img { width: 494rem; height: 403rem; left: 286rem; bottom: 64rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-title { right: 247rem; bottom: 280rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-skill { right: 438rem; bottom: 94rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-desc { left: 570rem; top: 141rem; }
 }
 
 
@@ -50,7 +98,26 @@
     html.safari.desktop { font-size: 0.06756756756756757vw; }
 
     /* LAYOUT */
+    .main-content__desc { right: 244rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-title { left: 280rem; }
 
+    .main-work__contents:nth-child(2) .main-work__contents-img { width: 590rem; height: 284rem; right: 109rem; top: 91rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-title { left: 360rem; bottom: 110rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-desc { right: 80rem; bottom: 64rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-skill { left: 377rem; top: 132rem; }
+
+    .main-work__contents:nth-child(3) .main-work__contents-desc { top: 180rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-skill { right: 365rem; }
+
+    .main-work__contents:nth-child(4) .main-work__contents-img { width: 590rem; height: 284rem; right: 109rem; top: 91rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-title { left: 360rem; bottom: 110rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-desc { right: 80rem; bottom: 64rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-skill { left: 377rem; top: 132rem; }
+
+    .main-work__contents:nth-child(5) .main-work__contents-skill { bottom: 134rem; }
+
+    .main-work__contents:nth-child(6) .main-work__contents-desc { top: 180rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-skill { right: 365rem; }
 
 }
 
@@ -66,19 +133,54 @@
 
     /* VAR */
     :root {
-        --font-size-ko-01: 52rem;
-        --font-size-ko-02: 44rem;
-        --font-size-ko-03: 36rem;
-        --font-size-ko-04: 30rem;
-        --font-size-ko-05: 26rem;
+        --font-size-01: 140rem;
+        --font-size-02: 73rem;
+        --font-size-03: 56rem;
+        --font-size-04: 28rem;
+        --font-size-05: 18rem;
+        --font-size-06: 20rem;
+        --font-size-07: 14rem;
 
-        --font-lineheight-ko-01: 63rem;
-        --font-lineheight-ko-02: 57rem;
-        --font-lineheight-ko-03: 49rem;
-        --font-lineheight-ko-04: 43rem;
-        --font-lineheight-ko-05: 39rem;
+        --font-lineheight-02: 90rem;
+        --font-lineheight-04: 46rem;
+        --font-lineheight-06: 38rem;
+        --font-lineheight-07: 24rem;
     }
 
+    /* LAYOUT */
+    .about-btn { top: 20rem; right: 20rem; }
+    .main-menu { left: 20rem; }
+    .main-menu li a { padding: 6rem 12rem; }
+    .main-content__desc { right: 180rem; top: 173rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-title { left: 228rem; bottom: 266rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-img { width: 542rem; height: 272rem; right: 30rem; bottom: 57rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-desc { left: 550rem; top: 138rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-skill { right: 170rem; top: 300rem; }
+
+    .main-work__contents:nth-child(2) .main-work__contents-title { left: 280rem; bottom: 84rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-desc { right: 43rem; bottom: 46rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-img { width: 479rem; height: 230rem; right: 87rem; top: 91rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-skill { left: 300rem; }
+
+    .main-work__contents:nth-child(3) .main-work__contents-title { right: 190rem; bottom: 223rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-img { width: 400rem; height: 327rem; left: 232rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-desc { top: 150rem; left: 463rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-skill { right: 286rem; }
+
+    .main-work__contents:nth-child(4) .main-work__contents-title { left: 280rem; bottom: 84rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-desc { right: 43rem; bottom: 46rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-img { width: 479rem; height: 230rem; right: 87rem; top: 91rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-skill { left: 300rem; }
+
+    .main-work__contents:nth-child(5) .main-work__contents-title { left: 237rem; bottom: 223rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-img { width: 439rem; height: 358rem; right: 77rem; bottom: 48rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-desc { left: 487rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-skill { bottom: 108rem; right: 560rem; }
+
+    .main-work__contents:nth-child(6) .main-work__contents-title { right: 190rem; bottom: 223rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-img { width: 400rem; height: 327rem; left: 232rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-desc { top: 150rem; left: 463rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-skill { right: 286rem; }
 }
 
 
@@ -90,6 +192,46 @@
 
     html,
     html.safari.desktop { font-size: 0.09775171065493645vw; }
+
+    /* VAR */
+    :root {
+        --font-size-02: 62rem;
+    }
+
+    /* LAYOUT */
+    .main-content__desc { right: 124rem; top: 144rem; }
+    .main-content__title { bottom: 126rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-title { left: 195rem; bottom: 221rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-desc { left: 469rem; top: 116rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-img { width: 462rem; height: 232rem; right: 25rem; bottom: 50rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-skill { right: 130rem; top: 254rem; }
+
+    .main-work__contents:nth-child(2) .main-work__contents-title { left: 240rem; bottom: 66rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-img { width: 409rem; height: 196rem; right: 73rem; top: 78rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-skill { left: 240rem; top: 115rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-desc { width: 400rem; }
+    .main-work__contents:nth-child(2) .main-work__contents-desc br { display: none; }
+
+    .main-work__contents:nth-child(3) .main-work__contents-title { right: 161rem; bottom: 185rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-img { width: 340rem; height: 280rem; left: 198rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-desc { left: 395rem; }
+    .main-work__contents:nth-child(3) .main-work__contents-skill { right: 230rem; bottom: 84rem; }
+
+    .main-work__contents:nth-child(4) .main-work__contents-title { left: 172rem; bottom: 66rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-img { width: 409rem; height: 196rem; right: 73rem; top: 78rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-skill { left: 240rem; top: 115rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-desc { width: 400rem; }
+    .main-work__contents:nth-child(4) .main-work__contents-desc br { display: none; }
+
+    .main-work__contents:nth-child(5) .main-work__contents-title { left: 203rem; bottom: 185rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-img { width: 374rem; height: 305rem; right: 65rem; bottom: 41rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-desc { left: 415rem; }
+    .main-work__contents:nth-child(5) .main-work__contents-skill { bottom: 90rem; right: 477rem; }
+
+    .main-work__contents:nth-child(6) .main-work__contents-title { right: 161rem; bottom: 185rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-img { width: 340rem; height: 280rem; left: 198rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-desc { left: 395rem; }
+    .main-work__contents:nth-child(6) .main-work__contents-skill { right: 230rem; bottom: 84rem; }
 
 }
 
@@ -103,6 +245,19 @@
     html,
     html.safari.desktop { font-size: 0.13020833333333335vw; }
 
+    /* VAR */
+    :root {
+        --font-size-02: 48rem;
+
+        --font-lineheight-02: 68rem;
+    }
+
+    /* LAYOUT */
+    .main-menu { top: 60%; }
+    .main-content__title { top: 20%; bottom: auto; left: 30rem; translate: none; text-align: left; }
+    .main-content__title span:last-child { padding-left: 0; }
+    .main-content__desc { display: none; }
+    .main-work__contents { display: none; }
 }
 
 
@@ -114,6 +269,18 @@
 
     html,
     html.safari.desktop { font-size: 0.2564102564102564vw; }
+
+    /* VAR */
+    :root {
+        --font-size-02: 32rem;
+
+        --font-lineheight-02: 48rem;
+    }
+
+    /* LAYOUT */
+    .main-menu { left: 16rem; }
+    .about-btn { top: 16rem; right: 16rem; }
+    .main-content__title { top: 17%; left: 20rem; width: 90%; }
 
 }
 

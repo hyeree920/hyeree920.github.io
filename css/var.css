@@ -11,15 +11,19 @@
 
     --letter-spacing: 0em;
 
-    --font-size-ko-01: 56rem;
-    --font-size-ko-02: 48rem;
-    --font-size-ko-03: 38rem;
-    --font-size-ko-04: 32rem;
-    --font-size-ko-05: 28rem;
+    --font-size-01: 140rem;
+    --font-size-02: 82rem;
+    --font-size-03: 56rem;
+    --font-size-04: 28rem;
+    --font-size-05: 22rem;
+    --font-size-06: 20rem;
+    --font-size-07: 16rem;
 
-    --font-lineheight-ko-01: 68rem;
-    --font-lineheight-ko-02: 62rem;
-    --font-lineheight-ko-03: 52rem;
-    --font-lineheight-ko-04: 46rem;
-    --font-lineheight-ko-05: 42rem;
+    --font-lineheight-01: normal;
+    --font-lineheight-02: 98rem;
+    --font-lineheight-03: normal;
+    --font-lineheight-04: 46rem;
+    --font-lineheight-05: normal;
+    --font-lineheight-06: 38rem;
+    --font-lineheight-07: 24rem;
 }

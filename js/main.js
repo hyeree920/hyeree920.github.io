@@ -64,6 +64,8 @@ function menu_tab(){
 
     if( !menu ) return;
 
+    if (window.innerWidth <= 860) {return;}
+
     menu.forEach((item, idx) => {
         item.addEventListener('mouseover', () => {
             item.classList.add('hover');
