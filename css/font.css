@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+ * File    : font.css
+ * SUMMARY :
+ * PRETENDARD
+ * MONTSERRAT
+ */
+
+
+
+/* ************************************** *
+ * PRETENDARD
+ * ************************************** */  
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    src: url('../fonts/Pretendard/woff2-subset/Pretendard-Regular.subset.woff2') format('woff2'), 
+         url('../fonts/Pretendard/woff-subset/Pretendard-Regular.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    src: url('../fonts/Pretendard/woff2-subset/Pretendard-Bold.subset.woff2') format('woff2'), 
+         url('../fonts/Pretendard/woff-subset/Pretendard-Bold.subset.woff') format('woff');
+}
+
+
+
+/* ************************************** *
+ * PPEiko
+ * ************************************** */
+@font-face {
+    font-family: 'PPEiko';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/PPEiko/PPEiko-Thin.woff2') format('woff2'),
+         url('../fonts/PPEiko/PPEiko-Thin.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'PPEiko';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/PPEiko/PPEiko-LightItalic.woff2') format('woff2'),
+         url('../fonts/PPEiko/PPEiko-LightItalic.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'PPEiko';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/PPEiko/PPEiko-Medium.woff2') format('woff2'),
+         url('../fonts/PPEiko/PPEiko-Medium.woff') format('woff'); 
+}
+
+
+
+/* ************************************** *
+ * PPEiko
+ * ************************************** */
+ @font-face {
+    font-family: 'BasisGrotesquePRO';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/BasisGrotesquePRO/BasisGrotesqueArabicPro-Light.woff2') format('woff2'),
+         url('../fonts/BasisGrotesquePRO/BasisGrotesqueArabicPro-Light.woff') format('woff'); 
+}
