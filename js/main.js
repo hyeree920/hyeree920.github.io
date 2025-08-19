@@ -282,6 +282,7 @@ function scroll_change(){
     const blogList = document.querySelector(".about-blog__list");
 
     if( !blogList ) return;
+    if (window.innerWidth <= 540) {return;}
 
     const totalWidth = blogList.scrollWidth - blogList.clientWidth;
 
