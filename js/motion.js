@@ -32,6 +32,8 @@ spline_load();
 * **************************************** */
 function spline_load(){
 
+    if( !document.querySelector('.jt-spline') ){ return }
+
     const canvas = document.getElementById('spline-visual');
     const url = canvas.getAttribute('data-url');
 
