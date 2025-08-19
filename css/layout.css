@@ -145,6 +145,10 @@ a { color: var(--color-primary); text-decoration: none; }
 .work-visual__desc a { color: #79767a; }
 .work-visual__img { width: 100%; position: relative; z-index: 1000; }
 .work-visual__img img { width: 100%; }
+.work-visual__img video { width: 100%; }
+
+.work-contents__img img { width: 100%; }
+.work-contents__img video { width: 100%; }
 
 .work-contents__desc { padding: 200rem 25rem; }
 .work-contents__desc { font-size: var(--font-size-06); }
