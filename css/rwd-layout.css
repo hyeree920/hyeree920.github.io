@@ -168,6 +168,7 @@
 
     /* MAIN */
     .about-btn { top: 20rem; right: 20rem; }
+    .home-btn { top: 20rem; left: 20rem; }
     .main-menu { left: 20rem; }
     .main-menu li a { padding: 6rem 12rem; }
     .main-content__desc { right: 180rem; top: 173rem; }
@@ -263,6 +264,13 @@
     .about-visual__title-img { width: 96rem; height: 115rem; }
     .about-blog__list { gap: 40rem; }
     .about-blog__item-img { width: 320rem; height: 240rem; }
+
+    /* WORK */
+    .work-visual__desc { grid-template-columns: 1fr; padding-top: 0; height: 22vh; }
+    .work-visual__title { height: 30vh; }
+    .work-contents__desc { text-align: center; width: 90%; margin: 0 auto; }
+    .work-contents__desc--small { padding-left: 0; }
+    .work-contents__desc--small p { width: 100%; }
 }
 
 
@@ -278,8 +286,10 @@
     /* VAR */
     :root {
         --font-size-02: 48rem;
+        --font-size-04: 24rem;
 
         --font-lineheight-02: 68rem;
+        --font-lineheight-04: 42rem;
     }
 
     /* MAIN */
@@ -296,6 +306,9 @@
     .about-skill__title { width: 60%; }
     .about-skill__title .line { width: 30%; }
     .about-blog__item-img { width: 290rem; height: 220rem; }
+
+    /* WORK */
+    .work-next__item-img { width: 300rem; height: 420rem; }
 }
 
 
@@ -313,17 +326,20 @@
         --font-size-01: 42rem;
         --font-size-02: 32rem;
         --font-size-03: 26rem;
+        --font-size-04: 20rem;
         --font-size-06: 16rem;
 
         --font-lineheight-01: 80rem;
         --font-lineheight-02: 48rem;
         --font-lineheight-03: 48rem;
+        --font-lineheight-04: 32rem;
         --font-lineheight-06: 26rem;
     }
 
     /* MAIN */
     .main-menu { left: 16rem; }
     .about-btn { top: 16rem; right: 16rem; }
+    .home-btn { top: 16rem; left: 16rem; }
     .main-content__title { top: 17%; left: 20rem; width: 90%; }
 
     /* ABOUT */
@@ -334,6 +350,14 @@
     .about-skill__title .line { width: 1px; height: 100rem; }
     .about-blog__list { margin-top: 40rem; display: grid; grid-template-columns: 1fr 1fr; gap: 16rem; }
     .about-blog__item-img { width: 100%; height: auto; aspect-ratio: 4 / 3; }
+
+    /* WORK */
+    .article { padding-bottom: 100rem; }
+    .work-visual__title { height: 25vh; }
+    .work-visual__title h2 { padding-left: 40rem; padding-top: 75rem; }
+    .work-visual__desc { height: 27vh; }
+    .work-visual__desc p { margin-top: 0; }
+    .work-next__item-img { width: 230rem; height: 300rem; }
 }
 
 
