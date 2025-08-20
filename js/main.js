@@ -90,7 +90,7 @@ function page_motion(){
     const visual = document.querySelector('.work-visual__img');
     if( !visual ) return;
 
-    gsap.fromTo(visual, {y: -490}, {y: 0, delay: .6, duration: 1, ease: 'power3.out'})
+    gsap.fromTo(visual, {y: 0}, {y: '52vh', delay: .6, duration: 1, ease: 'power3.out'})
 
     const nextItem = document.querySelector('.work-next__item')
     nextItem.addEventListener('mouseover', () => {

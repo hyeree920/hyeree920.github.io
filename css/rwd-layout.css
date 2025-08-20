@@ -113,6 +113,7 @@
     /* MAIN */
     .main-content__desc { right: 244rem; }
     .main-work__contents:nth-child(1) .main-work__contents-title { left: 280rem; }
+    .main-work__contents:nth-child(1) .main-work__contents-skill { top: 280rem; }
 
     .main-work__contents:nth-child(2) .main-work__contents-img { width: 590rem; height: 284rem; right: 109rem; top: 91rem; }
     .main-work__contents:nth-child(2) .main-work__contents-title { left: 360rem; bottom: 110rem; }
@@ -131,6 +132,10 @@
 
     .main-work__contents:nth-child(6) .main-work__contents-desc { top: 180rem; }
     .main-work__contents:nth-child(6) .main-work__contents-skill { right: 365rem; }
+
+    /* WORK */
+    .work-visual__title h2 { padding-top: 120rem; }
+    .work-visual__desc { padding-top: 50rem; }
 
 }
 
